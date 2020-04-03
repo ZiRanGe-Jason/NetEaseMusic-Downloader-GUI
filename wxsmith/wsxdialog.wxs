@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="wsxDialog">
+		<title>NetEaseMusic-Downloader GUI</title>
+		<size>431,105</size>
+		<bg>wxSYS_COLOUR_INACTIVECAPTION</bg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<value>填入歌曲网页链接</value>
+			<pos>64,8</pos>
+			<size>256,22</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>获取</label>
+			<pos>336,8</pos>
+			<fg>wxSYS_COLOUR_BTNTEXT</fg>
+			<bg>wxSYS_COLOUR_SCROLLBAR</bg>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>链接</label>
+			<pos>16,8</pos>
+			<size>32,24</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>关于</label>
+			<pos>336,40</pos>
+			<bg>wxSYS_COLOUR_SCROLLBAR</bg>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<value>.\\music\\</value>
+			<pos>64,72</pos>
+			<size>256,22</size>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>保存位置</label>
+			<pos>8,72</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>歌曲名</label>
+			<pos>16,40</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<pos>64,40</pos>
+			<size>256,22</size>
+			<enabled>0</enabled>
+		</object>
+	</object>
+</wxsmith>
